@@ -4,7 +4,7 @@ This is a sample application used to demonstrate how to create dockerized apps a
 
 It takes a sample ASP.NET Core MVC app, creates its Dockerfile, then the Kubernetes deployment objects.  
 
-The Dockerfile is used to build the app from source code. Then runs the app inside a docker container.  
+dtgygy The Dockerfile is used to build the app from source code. Then runs the app inside a docker container.  
 The k8s objects defined in YAML files are used to deploy the app into a Kubernetes cluster. These files are:  
 1) mvc-deployment.local.yaml: used to create a Deployment and a Service to run the app.  
 2) mssql-deployment.yaml: used to create a Deployment and a Service to run the SQL Server container.  
